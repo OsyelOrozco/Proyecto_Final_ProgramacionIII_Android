@@ -7,84 +7,18 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/Inicio_de_Sesion"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="72dp"
-        android:text="Inicio de Sesion"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="238dp" />
 
     <EditText
-        android:id="@+id/Ingresar_Contraseña"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="56dp"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/Crear_Usuario"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ingresar_Usuario"
-        app:layout_constraintVertical_bias="0.327" />
-
-    <EditText
-        android:id="@+id/Ingresar_Usuario"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="104dp"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Inicio_de_Sesion" />
-
-    <TextView
-        android:id="@+id/Contraseña"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contraseña:"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/Ingresar"
-        app:layout_constraintEnd_toStartOf="@+id/Ingresar_Contraseña"
-        app:layout_constraintHorizontal_bias="0.762"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Usuario" />
-
-    <TextView
-        android:id="@+id/Usuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
-        android:text="Usuario:"
-        android:textSize="1sdp"
-        app:layout_constraintEnd_toStartOf="@+id/Ingresar_Usuario"
-        app:layout_constraintHorizontal_bias="0.755"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Ingresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:text="Ingresar"
-        android:textSize="18p"
-        app:layout_constraintEnd_toStartOf="@+id/Crear_Usuario"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Crear_Usuario" />
-
-    <Button
-        android:id="@+id/Crear_Usuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="16dp"
-        android:text="Crear Usuario"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Usuario" />
-
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="217dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
