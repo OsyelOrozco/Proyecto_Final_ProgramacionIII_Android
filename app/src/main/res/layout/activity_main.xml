@@ -8,64 +8,83 @@
 
     <TextView
         android:id="@+id/Inicio_de_Sesion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
         android:text="Inicio de Sesion"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/Ingresar_Contraseña"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="354dp" />
+        android:layout_height="48dp"
+        android:layout_marginEnd="56dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Crear_Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ingresar_Usuario"
+        app:layout_constraintVertical_bias="0.327" />
 
     <EditText
-        android:id="@+id/ingresar_usuario"
+        android:id="@+id/Ingresar_Usuario"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:layout_height="48dp"
+        android:layout_marginTop="104dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Inicio_de_Sesion" />
 
     <TextView
         android:id="@+id/Contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña:"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="368dp" />
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Ingresar"
+        app:layout_constraintEnd_toStartOf="@+id/Ingresar_Contraseña"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Usuario" />
 
     <TextView
         android:id="@+id/Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
         android:text="Usuario:"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:textSize="1sdp"
+        app:layout_constraintEnd_toStartOf="@+id/Ingresar_Usuario"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
         android:text="Ingresar"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="466dp" />
+        android:textSize="18p"
+        app:layout_constraintEnd_toStartOf="@+id/Crear_Usuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Crear_Usuario" />
 
     <Button
         android:id="@+id/Crear_Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="16dp"
         android:text="Crear Usuario"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="466dp" />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Usuario" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
